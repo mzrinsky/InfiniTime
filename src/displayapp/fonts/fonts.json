@@ -1,9 +1,9 @@
 {
-   "jetbrains_mono_bold_20": {
+   "iosevka_mono_20": {
       "sources": [
          {
-            "file": "JetBrainsMono-Bold.ttf",
-            "range": "0x20-0x7e, 0x410-0x44f, 0xB0"
+            "file": "IosevkaTermNerdFontMono-Regular.ttf",
+            "range": "0x20-0x7e, 0xB0"
          },
          {
             "file": "FontAwesome5-Solid+Brands+Regular.woff",
@@ -11,33 +11,32 @@
          }
       ],
       "bpp": 1,
-      "size": 20,
-      "patches": ["jetbrains_mono_bold_20.c_zero.patch", "jetbrains_mono_bold_20.c_M.patch"]
+      "size": 20
    },
-   "jetbrains_mono_42": {
+   "iosevka_mono_42": {
       "sources": [
          {
-            "file": "JetBrainsMono-Regular.ttf",
+            "file": "IosevkaTermNerdFontMono-Regular.ttf",
             "range": "0x25, 0x2b, 0x2d, 0x2e, 0x30-0x3a, 0x43, 0x46, 0x4b-0x4d, 0x66, 0x69, 0x6b, 0x6d, 0x74, 0xb0"
          }
       ],
       "bpp": 1,
       "size": 42
    },
-   "jetbrains_mono_76": {
+   "iosevka_mono_76": {
       "sources": [
          {
-            "file": "JetBrainsMono-Light.ttf",
+            "file": "IosevkaTermNerdFontMono-Regular.ttf",
             "range": "0x25, 0x2D, 0x2F, 0x30-0x3a, 0x43, 0x46, 0xb0"
          }
       ],
       "bpp": 1,
       "size": 76
    },
-   "jetbrains_mono_extrabold_compressed": {
+   "iosevka_mono_80": {
       "sources": [
          {
-            "file": "JetBrainsMono-ExtraBold.ttf",
+            "file": "IosevkaTermNerdFontMono-Regular.ttf",
             "range": "0x30-0x3a"
          }
       ],
