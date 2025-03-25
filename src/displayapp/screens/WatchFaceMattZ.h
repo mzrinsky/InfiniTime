@@ -51,7 +51,7 @@ namespace Pinetime {
         uint8_t displayedMinute = -1;
 
         Utility::DirtyValue<std::chrono::time_point<std::chrono::system_clock, std::chrono::minutes>> currentDateTime {};
-        Utility::DirtyValue<std::chrono::time_point<std::chrono::system_clock, std::chrono::seconds>> currentDateSecond {};
+        //Utility::DirtyValue<std::chrono::time_point<std::chrono::system_clock, std::chrono::seconds>> currentDateSecond {};
         Utility::DirtyValue<uint32_t> stepCount {};
         Utility::DirtyValue<uint8_t> heartbeat {};
         Utility::DirtyValue<bool> heartbeatRunning {};
@@ -60,7 +60,7 @@ namespace Pinetime {
 
         Utility::DirtyValue<std::chrono::time_point<std::chrono::system_clock, std::chrono::days>> currentDate;
 
-        bool arcDirection = false;
+        //bool arcDirection = false;
 
         lv_obj_t* label_time;
         lv_obj_t* label_time_ampm;
@@ -74,7 +74,7 @@ namespace Pinetime {
         lv_obj_t* notificationIcon;
         lv_obj_t* weatherIcon;
         lv_obj_t* temperature;
-        lv_obj_t* secondsArc;
+        //v_obj_t* secondsArc;
 
         Controllers::DateTime& dateTimeController;
         Controllers::NotificationManager& notificationManager;
